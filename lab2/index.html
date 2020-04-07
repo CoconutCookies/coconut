@@ -1,3 +1,46 @@
-<html>
-    fdhv
-</html>
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Обратная связь</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+<big><form class="guruweba_example_form" name="feedback" method="POST" action="/feedback.php" align="center">
+        <div class="guruweba_example_caption"><b>Форма обратной связи</b></div><br>
+        <div>ФИО</div>
+        <input type="text" name="name" required="required"><br><br>
+
+        <div>Укажите ваш пол</div>
+        <input id="radio_1" name="guruweba_example_radio" type="radio" value="1" />
+        <label for="radio_1">Женский</label>
+        <input id="radio_2" name="guruweba_example_radio" type="radio" value="2" />
+        <label for="radio_2">Мужской</label><br><br>
+    
+
+        <div>Ваш email</div>
+        <input type="email" name="email" required="required"><br><br>
+
+
+        <div class="guruweba_example_infofield">Тема обращения</div>
+        <select name="theme" required="required">
+          <option value="">Категория обращения</option>
+          <option>Жалоба</option>
+          <option>Помощь</option>
+          <option>Сотрудничество</option>
+          <option>Пожелания / предложения</option>
+        </select><br><br>
+
+
+        <div>Текст</div>
+        <textarea name="message"></textarea><br><br>
+
+
+        <input name="guruweba_example_file" type="file" /><br><br>
+
+
+        <input type="submit" name="submit_btn" value="Отправить">
+
+        
+      </form></big>
+</body>
