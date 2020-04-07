@@ -3,13 +3,14 @@ body {
 }
 
 header {
-    height: 100px; 
+    height: 100px; /* Высота шапки */
     background-color: #6fc2f2;
     color: #000;
    }
 
 header {
 
+	/* Распределяем элементы внутри шапки */
 	justify-content: space-between;
 }
 

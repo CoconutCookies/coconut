@@ -1,0 +1,20 @@
+body {
+  background:url(https://images.wallpaperscraft.ru/image/nebo_oblaka_goluboj_108523_2560x1600.jpg);
+  font-size: 80%;
+  padding: 20px;
+}
+
+.form {
+    
+    
+    width: 340px;
+    margin: 60px auto 30px;
+    padding: 15px;
+    
+ 
+    
+    background: #6de6be;
+    border-radius: 4px;
+    color: #000;
+      
+}
