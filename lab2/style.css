@@ -1,3 +1,19 @@
 body { 
-    background:url(https://www.nastol.com.ua/pic/201505/1600x1200/nastol.com.ua-137503.jpg); 
-  }
+  background:url(https://www.nastol.com.ua/pic/201505/1600x1200/nastol.com.ua-137503.jpg); 
+  background-size: cover;
+}
+
+.form {
+  
+  
+  width: 340px;
+  margin: 60px auto 30px;
+  padding: 15px;
+  
+
+  
+  background: #fafafa96;
+  border-radius: 4px;
+  color: #000;
+    
+}
